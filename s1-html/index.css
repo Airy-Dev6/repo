@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(253, 253, 253);
+    text-align: justify;
+
+}
+
+header{
+    
+    background-color: blue;
+    color: white;
+    border: solid orangered 2px;
+    padding: 7px;
+    margin: 10px 0px;
+}
+
+nav{
+    color: black;
+    margin: 7px 1%;
+    border: greenyellow solid 2px;
+    background: orange;
+}
+
+div{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+aside{
+    background: orange;
+    width: 25%;
+    border: solid orangered;
+    padding: 7px;
+}
+main {
+    padding: 7px;
+    color: white;
+    background-color: orangered;
+    width: 50%;
+    margin: 0px 10px;
+    border: solid  rgb(0, 132, 255);
+}
+
+article {
+    background-color: yellow;
+    color: black;
+    margin: 10px;
+    padding: 4px;
+    height: 24%;
+}
+
+footer {
+    background-color: rgb(187, 114, 187);
+    border: black solid 3;
+    height: 50px   ;
+    padding: 7px;
+    margin: 10px 0px;
+}
