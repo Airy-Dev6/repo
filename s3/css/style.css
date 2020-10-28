@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: lightgrey;
+    /* display: none; */
+    max-height: 900px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.menu ul li:hover {
+    background-color: #444;
+    
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 20px 0;
+    flex: auto;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    
+}
+
+.menu ul li:last-of-type {
+    border-bottom: none;
+}
+
+.menu ul li a {
+    padding: 20px 0;
+    
+}
+
+.label-toggle {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+.label-toggle {
+    cursor: pointer;
+}
+
+#toggle-menu:checked ~ .menu {
+    /* display: block; */
+    height: 200px;
+}
+
+section {
+    border: 2px dashed steelblue; 
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+}
+div.number {
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    background-color: #888;
+
+}
+
+.number {
+    position: sticky;
+    top: 100px;
+    left: 0px;
+    /* top: 100px;
+    left: 20px; */
+    /* left: 0;; */
+}
+
+body {
+    padding-bottom: 1000px;
+}
